@@ -1,5 +1,6 @@
 {
   "name": "boardcamp-api",
+  "type": "module",
   "version": "1.0.0",
   "description": "An API for a boardgame system",
   "main": "index.js",
