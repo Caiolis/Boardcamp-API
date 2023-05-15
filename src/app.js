@@ -1,10 +1,11 @@
-import { express, json } from "express";
+import express, { json } from "express";
 import router from "./routes/index.routes.js";
+import dotenv from "dotenv";
 
 //server Configs
 const app = express();
 
-dotev.config()
+dotenv.config()
 app.use(json());
 app.use(router);
 
